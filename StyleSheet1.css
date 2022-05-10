@@ -1,0 +1,170 @@
+﻿/*reboto-font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap');
+/*colors uses:#080906-#252A34-#ff2E63-#EAEAEA*/
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1;
+}
+a{
+    text-decoration:none;
+}
+/*utility classes*/
+.container{
+    max-width:80%;
+    margin:auto;
+
+}
+.bg-dark{
+    background-color:#252A34;
+    color:#fff;
+}
+.bg-light {
+    background-color: #EAEAEA;
+    color: #253A34;
+}
+.bg-primary {
+    background-color:#ff2E63;
+}
+.text-primary{
+    color:#FF2E63;
+}
+.text-center{
+    text-align:center;
+}
+.l-heading{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.m-heading{
+    font-size: 2rem;
+
+}
+.lead{
+    font-size: 1.6rem;
+}
+.py-1{
+    padding: 1.5rem;
+}
+.btn{
+    background-color:#08D9D6;
+    color:#FFF;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+}
+.btn-dark{
+    background-color:#252A34;
+    color:#fff;
+}
+.btn:hover{
+    background-color:#FF2E63;
+}
+.box-shadow{
+ box-shadow: 0 0 2px #252A34;
+}
+/*section:navbar*/
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position:sticky;
+    top:0;
+    z-index: 1;
+}
+#navbar.logo img{
+    width:80px;
+}
+#navbar ul{
+    list-style:none;
+    display:flex
+}
+#navbar ul li a{
+    color:#fff;
+    padding: 1rem;
+}
+    #navbar ul li a:hover {
+        background-color:#080906;
+    }
+    /*section: showcase*/
+#showcase {
+    background: #ff2E63 url(photo3.jpg) no-repeat center center/cover;
+    height: 100px;
+    color: #fff;
+}
+#showcase.showcase-contant{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height: 100%;
+    padding:1rem;
+}
+    /*overlay*/
+    background-color:rgba(0,0,0,0.8);
+}
+/*about*/
+#about.about-contant{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+   #about.about-contant div,
+   #about.about-contant img{
+       flex: 1;
+   }
+    #about .about-contant img{
+        width: 30%;
+        margin-left: 1.5rem;
+        border: 5px solid #fff;
+        background-position:center;
+    }
+       /*section:cta*/
+#cta {
+    background-color:#252A34;
+    color: #fff;
+}
+    #cta .cta-contant{
+        min-height: 350px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        background-color: rgba(0,0,0,0.6);
+        padding: 6rem;
+    }
+    /*section:contact*/
+    #contact{
+        display:flex
+    }
+    #contact .contact-us{
+        flex:1;
+
+    }
+#contact-us input,
+#contact-us textarea{
+    width:1%;
+    padding: 0.75rem;
+    border:none;
+    margin-bottom: 1rem;
+    outline:none;
+}
+#contact .contact-us .form-group{
+    display:flex
+}
+#contact .contact-us .form-group input[type=t"text"]{
+    margin-right: 0.75rem;
+}
+
+
+
+
+
+
+
